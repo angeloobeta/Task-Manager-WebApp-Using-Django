@@ -1,0 +1,12 @@
+<!--Inheriting the base.html file-->
+{% extends 'base.html' %}
+
+{% block title %}
+  <title>Welcome to BlogApp</title>
+{% endblock title %}
+
+{% block content %}
+  <div class = 'container'> 
+    <h1>{{blogapp_text}}</h1>
+  </div>
+{% endblock content %}
